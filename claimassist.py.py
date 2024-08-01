@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import pickle
+import lightgbm as lgb
 import streamlit as st
 
 
