@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import requirements
+import pickle
 import streamlit as st
 
 
