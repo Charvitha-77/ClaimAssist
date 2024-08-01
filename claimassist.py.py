@@ -3,12 +3,12 @@ import pandas as pd
 import pickle
 import streamlit as st
 
-filename = "C:/Users/Charvitha Reddy/Downloads/teaaa/claim_model.pkl"
+filename = "claim_model.pkl"
 loaded_model = pickle.load(open(filename, 'rb'))
-jobtitle_le = pickle.load(open("C:/Users/Charvitha Reddy/Downloads/teaaa/le_job_title.pkl", 'rb'))
-hereditary_disease_le = pickle.load(open("C:/Users/Charvitha Reddy/Downloads/teaaa/le_hereditary_diseases.pkl", 'rb'))
-city_le = pickle.load(open("C:/Users/Charvitha Reddy/Downloads/teaaa/le_city.pkl", 'rb'))
-scaler = pickle.load(open("C:/Users/Charvitha Reddy/Downloads/teaaa/scaler.pkl", 'rb'))
+jobtitle_le = pickle.load(open("le_job_title.pkl", 'rb'))
+hereditary_disease_le = pickle.load(open("le_hereditary_diseases.pkl", 'rb'))
+city_le = pickle.load(open("le_city.pkl", 'rb'))
+scaler = pickle.load(open("scaler.pkl", 'rb'))
 
 def claim_prediction(input_data):
     # Convert input data into a DataFrame for processing
