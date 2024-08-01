@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
+pip install -r pickle.txt.txt
+
 
 filename = "claim_model.pkl"
 loaded_model = pickle.load(open(filename, 'rb'))
