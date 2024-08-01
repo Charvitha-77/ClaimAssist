@@ -2,4 +2,4 @@ pickle-mixin
 lightgbm
 pandas
 numpy
-sklearn
+scikit-learn
