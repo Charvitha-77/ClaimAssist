@@ -42,7 +42,7 @@ def claim_prediction(input_data):
     prediction = loaded_model.predict(input_data_scaled)
 
     # Interpretation of the result
-    if prediction[0] == 0:
+    if prediction[0] > 0.5 :
         return 'The claim is likely to be rejected.'
     else:
         return 'The claim is likely to be approved.'
