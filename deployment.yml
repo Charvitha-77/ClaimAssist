@@ -1,0 +1,9 @@
+---
+name: lightgbm-deployment-v2
+endpoint: lightgbm-service-v4
+model:
+  - name: lightgbm-model
+    version: 1
+instance_type: Standard_DS3_v2
+
+
